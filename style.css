@@ -1,0 +1,124 @@
+.row{
+    margin-top: 40px;
+}
+h1 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: medium;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+.picbeer{
+    margin-right: 50px;
+}
+body {
+    background-color: #DBDBDB;
+}
+.header {
+    padding: 20px;
+    background-color: #ffcd00;
+}
+.nav-link:hover {
+    color: #CF7500;
+}
+/* สไตล์สำหรับคลาส color-change */
+.color-change.active {
+    background-color: #ffcd00 !important; /* เปลี่ยนสีเมื่อ hover */
+  }
+  
+  /* สไตล์สำหรับคลาส loaded */
+  .loaded {
+    animation: fadeIn 1.5s ease-in-out; /* เพิ่มการสั่นเพื่อเปลี่ยนสีเมื่อเว็บโหลดเสร็จ */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* สไตล์สำหรับคลาส brand-color-change */
+.brand-color-change.active {
+    color: #CF7500 !important; /* เปลี่ยนสีเมื่อ hover */
+    transition: color 0.3s;
+  }
+  
+  /* จัดให้รูปภาพอยู่ตรงกลาง */
+  #picbeer {
+    display: block;
+    margin: 0 auto;
+  }
+ /* สไตล์สำหรับคลาส center-brand */
+.center-brand {
+    text-align: center;
+}
+
+/* สไตล์สำหรับ Navbar Item และเปลี่ยนสีเมื่อ hover */
+.navbar-nav .nav-item .nav-link {
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #CF7500;
+}
+/* CSS เพื่อทำให้รูปภาพย่อหรือขยายตามขนาดแพลตฟอร์ม */
+img {
+    width: 60%; /* รูปภาพจะไม่เกินความกว้างของพิกเซลตัวแพลตฟอร์ม */
+    height: auto; /* รักษารูปสัดส่วนเมื่อย่อหรือขยาย */
+}
+  .button .bt {
+    text-align: center;
+    background-color: #ffcd00;
+    color: #000000;
+    border: none;
+    border-radius: 20px; /* ปรับมุมให้มีมุมโค้ง */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.button .bt:hover {
+    background-color: #CF7500; /* เปลี่ยนสีเมื่อ hover */
+}
+.img-ft {
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-ft:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+.img-product {
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-product:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+.img-ft2 {
+  width: 54%;
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-ft2:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+.img-ft3 {
+  width: 68%;
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-ft3:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+h4{
+  margin-top: 5px;
+}
